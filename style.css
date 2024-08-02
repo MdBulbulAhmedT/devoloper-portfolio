@@ -108,3 +108,36 @@ main{
 .text{
     text-align: center;
 }
+
+/* skills related styles */
+.skills-box{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.skills-header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.skills-para{
+    text-align: center;
+
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    gap: 10px;
+    margin-top: 50px;
+    padding: 80px 30px;
+}
+
+.single-skills{
+    background-color: white;
+    padding: 20px 10px;
+}
