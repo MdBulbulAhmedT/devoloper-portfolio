@@ -114,6 +114,7 @@ main{
     margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 100px;
 }
 
 .skills-header{
@@ -140,4 +141,61 @@ main{
 .single-skills{
     background-color: white;
     padding: 20px 10px;
+}
+
+/* resume related style */
+
+.resume-area{
+    margin: 0 200px;
+}
+
+.resume-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight:600;
+}
+
+/* .education-experience{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.resumi-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 16px;
+}
+
+.BTN-BOX{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BDFHCBDH{
+    border-bottom-style: solid;
+}
+
+/* footer related style */
+
+footer{
+    background-color: #fff8f3;
+    margin: 0 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
 }
