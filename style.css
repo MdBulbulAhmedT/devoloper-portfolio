@@ -12,6 +12,14 @@
     border: 0px;
     color: white;
     padding: 10px;
+    cursor: pointer;
+
+}
+
+.btn-primary:hover{
+    background-color: black;
+    /* transition: o.5s; */
+    transition-duration: 0.5s;
 }
 
 /* nav related css*/
@@ -169,6 +177,11 @@ main{
     gap: 16px;
 }
 
+.education{
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .BTN-BOX{
     display: flex;
     align-items: center;
@@ -177,6 +190,7 @@ main{
 
 .BDFHCBDH{
     border-bottom-style: solid;
+    border-color: #b7b6b6;
 }
 
 /* footer related style */
@@ -198,4 +212,14 @@ footer{
 .icon{
     display: flex;
     gap: 10px;
+}
+
+.input-box{
+    padding: 10px 30px;
+    border-radius: 6px;
+}
+
+.footer-title{
+    font-size: 30px;
+    font-weight: 600;
 }
