@@ -73,3 +73,38 @@ nav a {
     font-size: 40px;
     font-weight: 600;
 }
+
+/* about related style */
+main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-section{
+    margin: 0 200px;
+    background-color: #fff8f3;
+    padding: 10px;
+}
+
+.about-header{
+    text-align: center;
+}
+
+.about-title{
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.fitures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border-area{
+    margin: 150px;
+}
+
+.text{
+    text-align: center;
+}
