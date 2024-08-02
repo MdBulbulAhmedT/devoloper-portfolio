@@ -1,5 +1,10 @@
 /* shared css */
 
+body{
+    font-family: "Open Sans", sans-serif;
+    /* font-optical-sizing: auto; */
+}
+
 .text-primary {
     color: #fd6e0a;
 }
